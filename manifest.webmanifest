@@ -8,21 +8,9 @@
   "theme_color": "#003366",
   "icons": [
     {
-      "src": "/assets/logo-priorites-rdc-192.png",
-      "sizes": "192x192",
-      "type": "image/png"
-    },
-    {
-      "src": "/assets/logo-priorites-rdc-512.png",
+      "src": "/assets/logo-priorites-rdc.svg",
       "sizes": "512x512",
-      "type": "image/png"
-    },
-    {
-      "src": "/assets/logo-priorites-rdc-maskable.png",
-      "sizes": "512x512",
-      "type": "image/png",
-      "purpose": "maskable"
+      "type": "image/svg+xml"
     }
   ]
 }
-

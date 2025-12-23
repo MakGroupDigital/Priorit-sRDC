@@ -1,9 +1,18 @@
-
 import { GoogleGenAI } from "@google/genai";
 
-const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
+// N'initialise le client que côté serveur (Node) avec une API key disponible via process.env.
+let ai: any = null;
+if (typeof window === 'undefined' && process.env.API_KEY) {
+  ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
+}
 
 export const getPrioritiesBotResponse = async (query: string) => {
+  if (!ai) {
+    // On se trouve probablement côté client ou l'API key n'est pas fournie.
+    console.warn('Gemini client non initialisé. Requête ignorée côté client.');
+    return "L'assistant n'est pas disponible dans ce contexte. Veuillez réessayer depuis le serveur ou contactez l'administrateur.";
+  }
+
   try {
     const response = await ai.models.generateContent({
       model: 'gemini-3-flash-preview',
