@@ -1,0 +1,14 @@
+{
+  "name": "Priorités RDC",
+  "description": "An ultra-modern, institutional web platform for the Democratic Republic of Congo, featuring real-time data visualization, strategic mapping, and an AI-powered guidance system.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ],
+  "logo": "assets/logo-priorites-rdc.svg",
+  "favicon": "assets/logo-priorites-rdc.svg",
+  "icons": [
+    { "src": "assets/logo-priorites-rdc.svg", "sizes": "512x512", "type": "image/svg+xml" }
+  ],
+  "manifest": "manifest.webmanifest"
+}

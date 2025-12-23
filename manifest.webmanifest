@@ -1,0 +1,28 @@
+{
+  "name": "PRIORITÉS RDC",
+  "short_name": "PrioritesRDC",
+  "description": "Site Priorités RDC — informations et projets",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#003366",
+  "icons": [
+    {
+      "src": "/assets/logo-priorites-rdc-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/logo-priorites-rdc-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/logo-priorites-rdc-maskable.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
+
