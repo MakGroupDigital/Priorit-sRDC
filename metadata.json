@@ -1,14 +1,19 @@
 {
-  "name": "Priorités RDC",
-  "description": "An ultra-modern, institutional web platform for the Democratic Republic of Congo, featuring real-time data visualization, strategic mapping, and an AI-powered guidance system.",
+  "name": "Priorités RDC - Vision 2030",
+  "description": "Portail officiel du développement de la République Démocratique du Congo. Plateforme institutionnelle moderne avec visualisation de données en temps réel, cartographie stratégique et système d'orientation par IA.",
   "requestFramePermissions": [
     "camera",
     "microphone"
   ],
-  "logo": "assets/logo-priorites-rdc.svg",
-  "favicon": "assets/logo-priorites-rdc.svg",
+  "logo": "LOGO PRIORITÉS RDC.png",
+  "favicon": "LOGO PRIORITÉS RDC.png",
   "icons": [
-    { "src": "assets/logo-priorites-rdc.svg", "sizes": "512x512", "type": "image/svg+xml" }
+    { 
+      "src": "LOGO PRIORITÉS RDC.png", 
+      "sizes": "512x512", 
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
   ],
   "manifest": "manifest.webmanifest"
 }
