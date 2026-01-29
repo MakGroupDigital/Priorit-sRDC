@@ -5,11 +5,11 @@
     "camera",
     "microphone"
   ],
-  "logo": "LOGO PRIORITÉS RDC.png",
-  "favicon": "LOGO PRIORITÉS RDC.png",
+  "logo": "logo-priorites-rdc.png",
+  "favicon": "logo-priorites-rdc.png",
   "icons": [
     { 
-      "src": "LOGO PRIORITÉS RDC.png", 
+      "src": "logo-priorites-rdc.png", 
       "sizes": "512x512", 
       "type": "image/png",
       "purpose": "any maskable"

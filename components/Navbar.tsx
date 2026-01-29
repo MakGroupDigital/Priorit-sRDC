@@ -24,7 +24,7 @@ const Navbar: React.FC<NavbarProps> = ({ darkMode, toggleDarkMode, language, set
         <Link to="/" className="flex items-center gap-2">
           <div className="w-16 h-16 bg-institutional-blue rounded flex items-center justify-center">
             {/* Logo principal */}
-            <img src="/LOGO PRIORITÉS RDC.png" alt="Priorités RDC" className="w-20 h-20 object-cover rounded" />
+            <img src="/logo-priorites-rdc.png" alt="Priorités RDC" className="w-20 h-20 object-cover rounded" />
           </div>
           <div className="flex flex-col">
             <span className={`font-lexend font-bold text-xl tracking-tight ${isScrolled ? 'text-institutional-blue dark:text-white' : 'text-white'}`}>
