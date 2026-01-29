@@ -15,7 +15,7 @@ const Services: React.FC = () => {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
           {/* Coopération chinoise */}
           <div className="bg-white dark:bg-institutional-dark p-10 rounded-3xl border border-slate-200 dark:border-slate-800 hover:border-institutional-gold transition-all group">
             <div className="w-16 h-16 bg-gradient-to-br from-red-500 to-yellow-500 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
@@ -54,6 +54,26 @@ const Services: React.FC = () => {
             <Link to="/services/bourses-etudes">
               <button className="px-6 py-3 bg-institutional-blue text-white rounded-full font-bold hover:bg-blue-900 transition-all">
                 Voir les bourses
+              </button>
+            </Link>
+          </div>
+
+          {/* Formations professionnelles */}
+          <div className="bg-white dark:bg-institutional-dark p-10 rounded-3xl border border-slate-200 dark:border-slate-800 hover:border-institutional-gold transition-all group">
+            <div className="w-16 h-16 bg-gradient-to-br from-institutional-emerald to-green-600 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+              <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+              </svg>
+            </div>
+            <h3 className="text-2xl font-lexend font-bold text-institutional-blue dark:text-white mb-4">
+              Formations Professionnelles
+            </h3>
+            <p className="text-slate-600 dark:text-slate-400 mb-6 leading-relaxed">
+              Développez vos compétences avec Euroforma, centre de formation professionnelle européen.
+            </p>
+            <Link to="/services/formations-professionnelles">
+              <button className="px-6 py-3 bg-institutional-blue text-white rounded-full font-bold hover:bg-blue-900 transition-all">
+                Formez-vous avec Euroforma
               </button>
             </Link>
           </div>

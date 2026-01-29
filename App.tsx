@@ -21,6 +21,7 @@ import StrategicHubPage from './pages/StrategicHubPage';
 // Service Pages
 import CooperationChinoisePage from './pages/services/CooperationChinoisePage';
 import BoursesEtudesPage from './pages/services/BoursesEtudesPage';
+import FormationsProfessionnellesPage from './pages/services/FormationsProfessionnellesPage';
 
 const App: React.FC = () => {
   const [darkMode, setDarkMode] = useState(false);
@@ -60,6 +61,7 @@ const App: React.FC = () => {
             {/* Service Routes */}
             <Route path="/services/cooperation-chinoise" element={<CooperationChinoisePage />} />
             <Route path="/services/bourses-etudes" element={<BoursesEtudesPage />} />
+            <Route path="/services/formations-professionnelles" element={<FormationsProfessionnellesPage />} />
           </Routes>
         </main>
 
