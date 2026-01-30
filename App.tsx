@@ -17,6 +17,9 @@ import NewsroomPage from './pages/NewsroomPage';
 import ContactPage from './pages/ContactPage';
 import FAQPage from './pages/FAQPage';
 import StrategicHubPage from './pages/StrategicHubPage';
+import Strategie2030Page from './pages/Strategie2030Page';
+import ProjetsEnDirectPage from './pages/ProjetsEnDirectPage';
+import InvestirPage from './pages/InvestirPage';
 
 // Service Pages
 import CooperationChinoisePage from './pages/services/CooperationChinoisePage';
@@ -57,6 +60,9 @@ const App: React.FC = () => {
             <Route path="/contact" element={<ContactPage />} />
             <Route path="/faq" element={<FAQPage />} />
             <Route path="/strategic-hub" element={<StrategicHubPage />} />
+            <Route path="/strategie-2030" element={<Strategie2030Page />} />
+            <Route path="/projets-en-direct" element={<ProjetsEnDirectPage />} />
+            <Route path="/investir" element={<InvestirPage />} />
             
             {/* Service Routes */}
             <Route path="/services/cooperation-chinoise" element={<CooperationChinoisePage />} />

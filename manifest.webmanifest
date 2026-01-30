@@ -8,28 +8,28 @@
   "theme_color": "#003366",
   "icons": [
     {
-      "src": "/favicon-16x16.png",
+      "src": "https://res.cloudinary.com/dy73hzkpm/image/upload/c_scale,w_16/v1766418270/LOGO_PRIORITE%CC%81S_RDC_hulitb.png",
       "sizes": "16x16",
       "type": "image/png"
     },
     {
-      "src": "/favicon-32x32.png",
+      "src": "https://res.cloudinary.com/dy73hzkpm/image/upload/c_scale,w_32/v1766418270/LOGO_PRIORITE%CC%81S_RDC_hulitb.png",
       "sizes": "32x32",
       "type": "image/png"
     },
     {
-      "src": "/apple-touch-icon.png",
+      "src": "https://res.cloudinary.com/dy73hzkpm/image/upload/c_scale,w_180/v1766418270/LOGO_PRIORITE%CC%81S_RDC_hulitb.png",
       "sizes": "180x180",
       "type": "image/png"
     },
     {
-      "src": "/android-chrome-192x192.png",
+      "src": "https://res.cloudinary.com/dy73hzkpm/image/upload/c_scale,w_192/v1766418270/LOGO_PRIORITE%CC%81S_RDC_hulitb.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any maskable"
     },
     {
-      "src": "/android-chrome-512x512.png",
+      "src": "https://res.cloudinary.com/dy73hzkpm/image/upload/c_scale,w_512/v1766418270/LOGO_PRIORITE%CC%81S_RDC_hulitb.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any maskable"

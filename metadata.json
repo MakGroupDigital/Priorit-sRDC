@@ -5,11 +5,11 @@
     "camera",
     "microphone"
   ],
-  "logo": "logo-priorites-rdc.png",
-  "favicon": "logo-priorites-rdc.png",
+  "logo": "https://res.cloudinary.com/dy73hzkpm/image/upload/v1766418270/LOGO_PRIORITE%CC%81S_RDC_hulitb.png",
+  "favicon": "https://res.cloudinary.com/dy73hzkpm/image/upload/v1766418270/LOGO_PRIORITE%CC%81S_RDC_hulitb.png",
   "icons": [
     { 
-      "src": "logo-priorites-rdc.png", 
+      "src": "https://res.cloudinary.com/dy73hzkpm/image/upload/v1766418270/LOGO_PRIORITE%CC%81S_RDC_hulitb.png", 
       "sizes": "512x512", 
       "type": "image/png",
       "purpose": "any maskable"

@@ -1,5 +1,6 @@
 
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Hero: React.FC = () => {
   return (
@@ -36,12 +37,16 @@ const Hero: React.FC = () => {
         </p>
 
         <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
-          <button className="w-full sm:w-auto px-10 py-4 bg-institutional-blue text-white rounded-full font-bold text-lg hover:bg-blue-900 transition-all border border-white/20 shadow-2xl">
-            Découvrir la Stratégie 2030
-          </button>
-          <button className="w-full sm:w-auto px-10 py-4 bg-white/10 backdrop-blur-md text-white border border-white/30 rounded-full font-bold text-lg hover:bg-white/20 transition-all">
-            Voir les Projets en Direct
-          </button>
+          <Link to="/strategie-2030">
+            <button className="w-full sm:w-auto px-10 py-4 bg-institutional-blue text-white rounded-full font-bold text-lg hover:bg-blue-900 transition-all border border-white/20 shadow-2xl">
+              Découvrir la Stratégie 2030
+            </button>
+          </Link>
+          <Link to="/projets-en-direct">
+            <button className="w-full sm:w-auto px-10 py-4 bg-white/10 backdrop-blur-md text-white border border-white/30 rounded-full font-bold text-lg hover:bg-white/20 transition-all">
+              Voir les Projets en Direct
+            </button>
+          </Link>
         </div>
       </div>
 
