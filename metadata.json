@@ -5,11 +5,11 @@
     "camera",
     "microphone"
   ],
-  "logo": "https://res.cloudinary.com/dy73hzkpm/image/upload/v1766418270/LOGO_PRIORITE%CC%81S_RDC_hulitb.png",
-  "favicon": "https://res.cloudinary.com/dy73hzkpm/image/upload/v1766418270/LOGO_PRIORITE%CC%81S_RDC_hulitb.png",
+  "logo": "https://res.cloudinary.com/dy73hzkpm/image/upload/v1769798795/Logo_priorite%CC%81s_rdc_-removebg-preview_m1xnfe.png",
+  "favicon": "https://res.cloudinary.com/dy73hzkpm/image/upload/v1769798795/Logo_priorite%CC%81s_rdc_-removebg-preview_m1xnfe.png",
   "icons": [
     { 
-      "src": "https://res.cloudinary.com/dy73hzkpm/image/upload/v1766418270/LOGO_PRIORITE%CC%81S_RDC_hulitb.png", 
+      "src": "https://res.cloudinary.com/dy73hzkpm/image/upload/v1769798795/Logo_priorite%CC%81s_rdc_-removebg-preview_m1xnfe.png", 
       "sizes": "512x512", 
       "type": "image/png",
       "purpose": "any maskable"

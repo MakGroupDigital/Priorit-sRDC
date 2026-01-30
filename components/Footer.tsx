@@ -7,8 +7,8 @@ const Footer: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-24">
           <div className="space-y-6">
             <div className="flex items-center gap-2">
-              <div className="w-28 h-28 bg-institutional-blue rounded flex items-center justify-center overflow-hidden">
-                <img src="https://res.cloudinary.com/dy73hzkpm/image/upload/v1766418270/LOGO_PRIORITE%CC%81S_RDC_hulitb.png" alt="Priorités RDC" className="w-full h-full object-cover" />
+              <div className="w-28 h-28 flex items-center justify-center">
+                <img src="https://res.cloudinary.com/dy73hzkpm/image/upload/v1769798795/Logo_priorite%CC%81s_rdc_-removebg-preview_m1xnfe.png" alt="Priorités RDC" className="w-full h-full object-contain" />
               </div>
               <span className="font-lexend font-bold text-xl tracking-tight">
                 PRIORITÉS <span className="text-institutional-gold">RDC</span>
